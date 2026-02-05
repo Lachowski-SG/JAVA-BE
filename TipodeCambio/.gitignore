@@ -67,7 +67,7 @@ node_modules/
 *.sw?
 
 # OS
-*./DS_Store
+./DS_Store
 Thumbs.db
 
 # Logs y Build
