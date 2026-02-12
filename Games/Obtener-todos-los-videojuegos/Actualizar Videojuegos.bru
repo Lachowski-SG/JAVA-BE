@@ -1,0 +1,22 @@
+meta {
+  name: Actualizar Videojuegos
+  type: http
+  seq: 5
+}
+
+get {
+  url: http://localhost:8080/updateGame/
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    
+  }
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}

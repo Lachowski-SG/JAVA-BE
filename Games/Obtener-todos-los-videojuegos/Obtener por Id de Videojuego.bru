@@ -1,0 +1,16 @@
+meta {
+  name: Obtener por Id de Videojuego
+  type: http
+  seq: 2
+}
+
+get {
+  url: http://localhost:8080/getOneGame/3
+  body: none
+  auth: inherit
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}

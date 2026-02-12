@@ -1,0 +1,24 @@
+meta {
+  name: Crear nuevo registro de Videojuego
+  type: http
+  seq: 4
+}
+
+get {
+  url: http://localhost:8080/createGame
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "title": "Mario Kart 64",
+    "year": "1996",
+    "genre": "Racing"
+  }
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}
