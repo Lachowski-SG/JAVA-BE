@@ -1,0 +1,16 @@
+meta {
+  name: Muestra las peliculas
+  type: http
+  seq: 1
+}
+
+get {
+  url: localhost:8080/movies/
+  body: json
+  auth: none
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}
